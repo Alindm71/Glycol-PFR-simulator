@@ -1,0 +1,92 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Byte-compiled / optimized / DLL files
+*.pyo
+*.pyd
+*.pyc
+
+# ===============================
+# Virtual Environments
+# ===============================
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+pip-wheel-metadata/
+
+# ===============================
+# Streamlit
+# ===============================
+.streamlit/config.toml
+.streamlit/*.txt
+.streamlit/*.json
+.streamlit/cache/
+
+# ===============================
+# Logs / Temp
+# ===============================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ===============================
+# OS Generated
+# ===============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ===============================
+# Editor / IDE
+# ===============================
+.vscode/
+.idea/
+*.code-workspace
+
+# ===============================
+# Jupyter / Notebook (if any)
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Data & Outputs
+# ===============================
+*.csv
+*.xlsx
+*.xls
+*.h5
+*.db
+*.sqlite3
+*.json
+*.yaml
+*.yml
+*.xml
+
+# ===============================
+# Environment / Secrets
+# ===============================
+.env
+.env.*
+secrets.*
+credentials.*
+
+# ===============================
+# Misc
+# ===============================
+*.zip
+*.tar.gz
+*.rar
